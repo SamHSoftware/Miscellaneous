@@ -7,10 +7,10 @@ E-mail: samhuguet1@gmail.com
 ## Description:   
 - This purpose of this package is to allow a user to compare the effect of different filters which tend to smooth/blur images. 
 - The user selects an image, and the code outputs a montage displaying the effect of each individual filter (listed blow), alongside the segmentation output (with a threshold determined by the Otsu method). 
-  - [A gaussian filter](https://www.youtube.com/watch?v=BR1YPQ8pkUA).  
-  - ()[A median filter].  
-  - [A maximum filter].  
-  - [A minimum filter].  
+  - [A gaussian filter](https://en.wikipedia.org/wiki/Gaussian_filter#:~:text=In%20electronics%20and%20signal%20processing,as%20it%20has%20infinite%20support).).  
+  - [A median filter](https://en.wikipedia.org/wiki/Median_filter#:~:text=The%20median%20filter%20is%20a,edge%20detection%20on%20an%20image).).  
+  - [A maximum filter](https://reference.wolfram.com/language/ref/MaxFilter.html) (does not smooth/blur image).  
+  - [A minimum filter](https://reference.wolfram.com/language/ref/MinFilter.html) (does not smooth/blur image).  
 
 ## Loading in the module functions: 
 
