@@ -7,7 +7,7 @@ E-mail: samhuguet1@gmail.com
 ## Description:   
 - This purpose of this package is to allow a user to compare the effect of different filters which tend to smooth/blur images. 
 - The user selects an image, and the code outputs a montage displaying the effect of each individual filter (listed blow), alongside the segmentation output (with a threshold determined by the Otsu method). 
-  - (https://www.youtube.com/watch?v=BR1YPQ8pkUA)[A gaussian filter].  
+  - [A gaussian filter](https://www.youtube.com/watch?v=BR1YPQ8pkUA).  
   - ()[A median filter].  
   - [A maximum filter].  
   - [A minimum filter].  
