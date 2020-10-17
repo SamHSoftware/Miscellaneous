@@ -7,12 +7,15 @@ E-mail: samhuguet1@gmail.com
 ## Description:   
 - This purpose of this package is to allow a user to compare the effect of different filters which tend to smooth/blur images. 
 - The user selects an image, and the code outputs a montage displaying the effect of each individual filter (listed blow), alongside the segmentation output (with a threshold determined by the Otsu method). 
-  - [A gaussian filter](https://en.wikipedia.org/wiki/Gaussian_filter#:~:text=In%20electronics%20and%20signal%20processing,as%20it%20has%20infinite%20support).).  
-  - [A median filter](https://en.wikipedia.org/wiki/Median_filter#:~:text=The%20median%20filter%20is%20a,edge%20detection%20on%20an%20image).).  
-  - [A maximum filter](https://reference.wolfram.com/language/ref/MaxFilter.html) (does not smooth/blur image).  
-  - [A minimum filter](https://reference.wolfram.com/language/ref/MinFilter.html) (does not smooth/blur image).  
+  - [A gaussian filter](https://en.wikipedia.org/wiki/Gaussian_filter#:~:text=In%20electronics%20and%20signal%20processing,as%20it%20has%20infinite%20support) (smooths/blurs image). 
+  - [A median filter](https://en.wikipedia.org/wiki/Median_filter#:~:text=The%20median%20filter%20is%20a,edge%20detection%20on%20an%20image) (smooths/blurs image). 
+  - [A maximum filter](https://reference.wolfram.com/language/ref/MaxFilter.html) (does not smooth/blur image, but yields similar effect).  
+  - [A minimum filter](https://reference.wolfram.com/language/ref/MinFilter.html) (does not smooth/blur image, but yields similar effect). 
+- For each ```.py``` file provided, there is an accompanying ```.ipynb``` file for those who use JupiterLab.
 
-## Loading in the module functions: 
+## How to use the code: 
+
+First, open the RUNME.py file. 
 
 To load in the module functions, use the following code: 
 ```
