@@ -15,7 +15,7 @@ E-mail: samhuguet1@gmail.com
 
 ## How to use the code: 
 
-# First, open the RUNME.py file. 
+### First, open the RUNME.py file. 
 
 (1) Within the ```RUNME.py``` file, first load in the module functions with the following code: 
 ```
