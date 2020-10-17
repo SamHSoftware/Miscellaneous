@@ -5,10 +5,12 @@ Name: Sam Huguet
 E-mail: samhuguet1@gmail.com
 
 ## Description:   
-- This purpose of this package is to allow a user to select an image of their choice and have it smoothened by a number of different filters (listed below).
-  - The filters which 
-- The segmentation threshold is chosen using the Otsu algorithm.  
-- The Otsu algorithm examines a data-set, and searches for the threshold that minimises intra-class variance. If you're interested, [read more about it here](https://en.wikipedia.org/wiki/Otsu%27s_method). 
+- This purpose of this package is to allow a user to compare the effect of different filters which tend to smooth/blur images. 
+- The user selects an image, and the code outputs a montage displaying the effect of each individual filter (listed blow), alongside the segmentation output (with a threshold determined by the Otsu method). 
+  - (https://www.youtube.com/watch?v=BR1YPQ8pkUA)[A gaussian filter].  
+  - ()[A median filter].  
+  - [A maximum filter].  
+  - [A minimum filter].  
 
 ## Loading in the module functions: 
 
