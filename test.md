@@ -1,11 +1,12 @@
-# README for project: otsu_segmentation
+# README for project: comparing_filters
 
 ## Author details: 
 Name: Sam Huguet  
 E-mail: samhuguet1@gmail.com
 
 ## Description:   
-- This purpose of this package is to allow a user to select an image of their choice and have it segmented.  
+- This purpose of this package is to allow a user to select an image of their choice and have it smoothened by a number of different filters (listed below).
+  - The filters which 
 - The segmentation threshold is chosen using the Otsu algorithm.  
 - The Otsu algorithm examines a data-set, and searches for the threshold that minimises intra-class variance. If you're interested, [read more about it here](https://en.wikipedia.org/wiki/Otsu%27s_method). 
 
