@@ -31,4 +31,4 @@ file_path = file_selection_dialog()
 ```
 ... a GUI will appear (see the image below), within which, the user should select the image they which to filter and segment.
 
-<img src="https://github.com/SamHSoftware/Image-Analysis/blob/main/comparing-filters/img/File%20selection.PNG?raw=true" alt="file selection GUI" width="200"/>
+<img src="https://github.com/SamHSoftware/Image-Analysis/blob/main/comparing-filters/img/File%20selection.PNG?raw=true" alt="file selection GUI" width="500"/>
