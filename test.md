@@ -57,7 +57,9 @@ If the montage is saved, it will be saved to the same directory as the image whi
 
 ## Testing the ```compare_filters()``` function: 
 
-(1) First, run the following code to import the ```compare_filters()``` function and the other necessary packages. 
+(1) First, open ```test_comparing_filters_functions.py```
+
+(2) Run the following code to import the ```compare_filters()``` function and the other necessary packages. 
 
 ```
 # Import the module containing the functions we need to unit test. 
@@ -71,11 +73,13 @@ import numpy as np
 import scipy.ndimage
 ```
 
-(2) Then, run the following function...
+(3) Then, run the following function (and it's corresponding code) within the python console such that it may be called and used.
 ```
 # Test the function 'comparing_filters()' against the provided output. 
 # Function input args: None. 
 # Function returns: When no errors are detected, a statement confirming this is printed. When errors are detcted, assertion errors are raised. 
 test_compare_filters()
 ```
-...after having run the code which defines the function within the console first. 
+If there are errors, then the code will print assertion errors explaining what went wrong.  
+
+If there were no errors, then a message confirming this will be printed. 
