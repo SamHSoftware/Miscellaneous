@@ -15,15 +15,15 @@ E-mail: samhuguet1@gmail.com
 
 ## How to use the code: 
 
-### First, open the RUNME.py file. 
+(1) First, open the RUNME.py file. 
 
-(1) Within the ```RUNME.py``` file, first load in the module functions with the following code: 
+(2) Within the ```RUNME.py``` file, first load in the module functions with the following code: 
 ```
 # Import functions from the module file. 
 from comparing_filters_functions import *
 ```
 
-(2) Then, with the following function...
+(3) Then, with the following function...
 ```
 # Function input args: None. 
 # Function returns: The file path corresponding to the image selected by the user. 
@@ -32,3 +32,7 @@ file_path = file_selection_dialog()
 ... a GUI will appear (see the image below), within which, the user should select the image they which to filter and segment.
 
 <img src="https://github.com/SamHSoftware/Image-Analysis/blob/main/comparing-filters/img/File%20selection.PNG?raw=true" alt="file selection GUI" width="500"/>
+
+(4) The following image (called original.png) is provided as a test input. Within the image, you can see a colony of humans stem cells.
+
+You can find this image, and others, wihtin this folder.
