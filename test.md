@@ -13,7 +13,7 @@ E-mail: samhuguet1@gmail.com
   - [A minimum filter](https://reference.wolfram.com/language/ref/MinFilter.html) (does not smooth/blur image, but yields similar effect). 
 - For each ```.py``` file provided, there is an accompanying ```.ipynb``` file for those who use JupiterLab.
 
-## How to use the code: 
+## How to use the ```RUNME.py``` code: 
 
 (1) First, open the RUNME.py file. 
 
@@ -33,6 +33,49 @@ file_path = file_selection_dialog()
 
 <img src="https://github.com/SamHSoftware/Image-Analysis/blob/main/comparing-filters/img/File%20selection.PNG?raw=true" alt="file selection GUI" width="500"/>
 
-(4) The following image (called original.png) is provided as a test input. Within the image, you can see a colony of humans stem cells.
+The following image (called original.png) is provided as a test input. Within the image, you can see a colony of humans stem cells.
 
-You can find this image, and others, wihtin this folder.
+You can find this image, and others needed for unit testing, within [this folder](https://github.com/SamHSoftware/Image-Analysis/tree/main/comparing-filters/img).
+
+(4) Upon loading in the image of your choice, a selection of filters will be applied (gaussian, median, maximum and minimum filters) with the following code: 
+
+```
+# Function input arg 1: The file path of the image which needs to be segmented. 
+# Function input arg 2: 'True' to display the figure which compares the filtered/original images to their segmentation outputs. 
+# Function input arg 3: 'True' to save the figure which compares the filtered/original images to their segmentation outputs.
+# Function input arg 4: The desired colormap to display the images. Must be a string. 
+# Function input arg 5: Kernel size for filtering. 
+# Function output 1: The figure. 
+figure = compare_filters(file_path, plot_images, save_plot, colormap, kernel_size)
+```
+
+The code will then output/save the following montage, depending on the input arguments you choose. 
+
+<img src="https://github.com/SamHSoftware/Image-Analysis/blob/main/comparing-filters/img/nuclei_comparing_filters.png?raw=true" alt="montage of filter effects" width="500"/>
+
+If the montage is saved, it will be saved to the same directory as the image which you originally selected. 
+
+## Testing the ```compare_filters()``` function: 
+
+(1) First, run the following code to import the ```compare_filters()``` function and the other necessary packages. 
+
+```
+# Import the module containing the functions we need to unit test. 
+import comparing_filters_functions
+
+# Import any necessary packages and modules. 
+import cv2 as cv
+import os
+import matplotlib.pyplot as plt
+import numpy as np 
+import scipy.ndimage
+```
+
+(2) Then, run the following function...
+```
+# Test the function 'comparing_filters()' against the provided output. 
+# Function input args: None. 
+# Function returns: When no errors are detected, a statement confirming this is printed. When errors are detcted, assertion errors are raised. 
+test_compare_filters()
+```
+...after having run the code which defines the function within the console first. 
