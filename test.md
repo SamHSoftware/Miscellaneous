@@ -9,7 +9,7 @@ E-mail: samhuguet1@gmail.com
 - The user selects an image, and the code outputs a montage displaying the effect of each individual filter (listed blow).
   - [A Laplacian filter](https://en.wikipedia.org/wiki/Gaussian_filter#:~:text=In%20electronics%20and%20signal%20processing,as%20it%20has%20infinite%20support) (smooths/blurs image). 
   - [A Sobel-x and Sobel-y filter](https://en.wikipedia.org/wiki/Sobel_operator). 
-  - [A canny filter](https://en.wikipedia.org/wiki/Canny_edge_detector).  
+  - [A Canny filter](https://en.wikipedia.org/wiki/Canny_edge_detector).  
 - For each ```.py``` file provided, there is an accompanying ```.ipynb``` file for those who use JupiterLab.
 
 ## How to use the ```RUNME.py``` code: 
