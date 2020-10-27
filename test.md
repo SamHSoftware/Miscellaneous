@@ -18,15 +18,18 @@ E-mail: samhuguet1@gmail.com
 
 (2) Within the ```RUNME.py``` file, first load in the module functions with the following code: 
 ```
-# Import functions from the module file. 
-from comparing_filters_functions import *
+# Import the necessary packages.
+# Function input args: None. 
+# Function returns: The file path corresponding to the image selected by the user. 
+from comparing_edge_detection_filters import *
 ```
 
 (3) Then, with the following function...
 ```
-# Function input args: None. 
-# Function returns: The file path corresponding to the image selected by the user. 
-from comparing_edge_detection_filters import *
+# A function to allow the user to select the image they wish to analyse. 
+# Function input args: none. 
+# Function output 1: The file path of the image in question. 
+file_path = file_selection_dialog()
 ```
 ... a GUI will appear (see the image below), within which, the user should select the image they which to filter and segment.
 
